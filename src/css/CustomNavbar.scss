@@ -15,16 +15,18 @@
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
+  transition-duration: 0.4s;
 }
 
 .navbar-item:hover {
   cursor: pointer;
-  background-color: darkgray;
+  background-color: rgb(61, 61, 61);
   color: white;
 }
 
 .dark {
   background-color: transparent;
+  border-bottom: 1px solid rgba(169, 169, 169, 0.226);
   height: 9vh;
   color: white;
 }

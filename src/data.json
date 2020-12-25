@@ -3,7 +3,9 @@
   "education": [
     {
       "school": "University of Michigan",
+      "degree": "B.S.E. Computer Science",
       "gpa": "3.61/4.0",
+      "img": "/src/images/U-M-logo.png",
       "courses": [
         "Math 217: Linear Algebra",
         "EECS 281: Data Structures and Algorithms",
