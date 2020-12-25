@@ -1,0 +1,32 @@
+{
+  "about": "CS junior @ UMich",
+  "education": [
+    {
+      "school": "University of Michigan",
+      "gpa": "3.61/4.0",
+      "courses": [
+        "Math 217: Linear Algebra",
+        "EECS 281: Data Structures and Algorithms",
+        "EECS 370: Computer Organization",
+        "EECS 376: Foundations of Computer Science",
+        "EECS 388: Computer Security",
+        "EECS 445: Machine Learning",
+        "EECS 481: Software Engineering",
+        "EECS 482: Operating Systems",
+        "EECS 485: Web Systems",
+        "EECS 491: Distributed Systems"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Wolverine Trading",
+      "title": "Incoming Software Engineering Intern"
+    },
+    {
+      "company": "Bandwidth",
+      "title": "Software Development Intern - Keystone Identity Team"
+    }
+  ],
+  "projects": []
+}

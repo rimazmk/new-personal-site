@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: gray;
+  font-size: 1.2em;
+}
+
+$card-size: 300px;
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: $card-size;
+  height: $card-size;
+  position: absolute;
+  top: calc(50% - #{$card-size/2});
+  right: calc(50% - #{$card-size/2});
+}
