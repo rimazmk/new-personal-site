@@ -23,11 +23,24 @@
   "experience": [
     {
       "company": "Wolverine Trading",
-      "title": "Incoming Software Engineering Intern"
+      "title": "Incoming Software Engineering Intern",
+      "date": "Nov 2020 - Present",
+      "desc": "",
+      "image": "https://media-exp1.licdn.com/dms/image/C560BAQE-ZBg4aOtSdA/company-logo_200_200/0/1534962044432?e=2159024400&v=beta&t=WCwuK7vseJ15fNYgQ7EUaKc3B7O4gSfNORI_q-HtqGA"
     },
     {
       "company": "Bandwidth",
-      "title": "Software Development Intern - Keystone Identity Team"
+      "title": "Software Development Intern - Keystone Identity Team",
+      "date": "May 2020 - Jul 2020",
+      "desc": "Keystone Identity Team",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEZRoHLIMQIoA/company-logo_200_200/0/1602497465728?e=2159024400&v=beta&t=LGVfp7HndM1I0HLAr-H-zWsR8WDEvOk78i0m2fgCTrU"
+    },
+    {
+      "company": "The Michigan Daily",
+      "title": "Project Manager",
+      "date": "Jan 2020 - Present",
+      "desc": "Websites and Special Projects",
+      "image": "https://pbs.twimg.com/profile_images/1221979091454308356/I3i5QCNf_400x400.jpg"
     }
   ],
   "projects": []

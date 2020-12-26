@@ -5,6 +5,7 @@ import AboutCard from "./AboutCard";
 import AboutMe from "./AboutMe";
 import CustomNavbar from "./CustomNavbar";
 import Education from "./Education";
+import Timeline from "./Timeline";
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <div className="container-main">
         <AboutMe />
         <Education />
+        <Timeline />
       </div>
     </>
   );
