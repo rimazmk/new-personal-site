@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import CustomNavbar from "./CustomNavbar";
 import Education from "./Education";
 import Timeline from "./Timeline";
+import Projects from "./Projects";
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
         <AboutMe />
         <Education />
         <Timeline />
+        <Projects />
       </div>
     </>
   );

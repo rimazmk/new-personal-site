@@ -30,7 +30,7 @@
     },
     {
       "company": "Bandwidth",
-      "title": "Software Development Intern - Keystone Identity Team",
+      "title": "Software Development Intern",
       "date": "May 2020 - Jul 2020",
       "desc": "Keystone Identity Team",
       "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEZRoHLIMQIoA/company-logo_200_200/0/1602497465728?e=2159024400&v=beta&t=LGVfp7HndM1I0HLAr-H-zWsR8WDEvOk78i0m2fgCTrU"
@@ -43,5 +43,24 @@
       "image": "https://pbs.twimg.com/profile_images/1221979091454308356/I3i5QCNf_400x400.jpg"
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "name": "moody mixes",
+      "description": "An SMS client that recommends Spotify playlists from selfies",
+      "link": "https://github.com/rimazk123/moody_mixes",
+      "image": "https://github.com/rimazk123/moody-mixes/raw/master/anger.jpeg"
+    },
+    {
+      "name": "github cli",
+      "description": "Contributor to Github's official cli tool with 11,000+ stars.",
+      "link": "https://github.com/cli/cli",
+      "image": "https://github.blog/wp-content/uploads/2020/09/gh-pr-checkout-on-github-command-line-terminal-app.png?resize=1024%2C476"
+    },
+    {
+      "name": "UM::Autonomy Website",
+      "description": "Redeveloped UM::Autonomy's website with a modern, responsive layout",
+      "link": "https://umautonomy.com",
+      "image": "https://lh3.googleusercontent.com/IhqRJn2q07QHpLO08yEYy1uyg-yTK8XrpO4_4ZaAl38pmZLApcjq079ZH5XjtTRDfjdbNLjpNynv44elqQ51I1tBqFUmPKx1VpP4WtIxVlKSkf1bm8Czrnd6NjdeXXZz4uYCXrl3ilPBWPj1HvcTzwxZre5WYO66IWJo9cn5m8rZ-iBxtjEGxnBP4r2xmiy96dcS9s9wk5LCApn5uKu3mRCRmeml1vyxCde7YJ1n_jO4fj735izawyv46kVTXFcVk89gROFuTZKCsbXJP6YJNUBWHF_LdDThZLI0jxiWY5dn6DEV9SKdlAX-AkjSuIOkFvE_02QFRqEyVTHogwCXF18hZsiGTYgutDiH3nFQbMolHwwnCEUL9FDl64rON7j0xFTjzElvxRkaGF642F4lta9hF3m7Vi-dlY2wmwmdDcqzDHgntPi38P3LXFv21Jcd3gEbHzb5udDOkTq9YIRZrp5eRqJX7fx9yQd7f07AUITRAMJLkROGJ2jvg9nXAIRJldZUaSVuYdKReASK56y4j7AA4eND1hdiAeXvFziQqWUrGd_3hQlaST0x3BumTNuY-rXT3d1Awm2mK2_eddoIH0lhbB8EQheOSs00RrcqfQTxN8abHTAvPvpAMt-4X-1vT6Qnrx_-ycXfJWdKGfolyUOcVXS8UkAnXL0IsoY-eUHRbfRp9_wuAbDlvnrahA=w1189-h809-no?authuser=0"
+    }
+  ]
 }
