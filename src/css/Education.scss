@@ -5,17 +5,18 @@
   padding: 20px;
 }
 
-.card-horizontal-text {
+.school-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-column: 1 / span 2;
+  flex-direction: row;
   grid-row-start: 1;
 }
 
 .card-horizontal-img {
-  grid-row-start: 1;
-  float: right;
   width: 256px;
   height: 140px;
-  margin: auto;
-  margin-right: 0;
 }
 
 $courses-title-padding: 20px;
@@ -31,16 +32,35 @@ $courses-title-padding: 20px;
 .courses-outer-container {
   grid-row-start: 3;
   grid-column: 1 / span 2;
-  display: flex;
-  flex-direction: row;
-}
-
-.courses-inner-container {
-  margin: auto;
-  text-align: center;
-  max-width: 300px;
+  display: grid;
+  gap: 0.8rem;
 }
 
 .course-name {
   font-size: 1rem;
+  text-align: center;
+  margin: 0px;
+  padding: 2px;
+}
+
+@media (min-width: 600px) {
+  .courses-outer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .school-container {
+    flex-direction: column;
+  }
+
+  .card-horizontal-text {
+    margin: auto;
+  }
+
+  .card-horizontal-img {
+    margin: 20px auto;
+    grid-row: 2;
+  }
 }

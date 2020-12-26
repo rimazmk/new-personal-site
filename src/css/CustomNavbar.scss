@@ -5,6 +5,7 @@
   position: fixed;
   transition-duration: 0.5s;
   top: 0;
+  min-height: 55px;
   z-index: 1;
 }
 
@@ -35,5 +36,6 @@
   background-color: white;
   height: 7.5vh;
   color: black;
-  box-shadow: 0 4px 2px -2px darkgray;
+  border-bottom: 1px solid rgba(97, 97, 97, 0.226);
+  // box-shadow: 0 4px 2px -2px darkgray;
 }
