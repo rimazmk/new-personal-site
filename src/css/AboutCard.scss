@@ -1,16 +1,10 @@
 h1 {
   color: black;
-  font-size: 4rem;
   font-weight: bold;
   text-align: center;
 }
 
-p {
-  color: gray;
-  font-size: 1.2em;
-}
-
-$card-size: 300px;
+$card-size: calc(min(70vmin, 350px));
 
 .about-card {
   display: flex;

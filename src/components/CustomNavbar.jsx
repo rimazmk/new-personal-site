@@ -1,26 +1,45 @@
 import React, { useEffect, useState } from "react";
+import HamburgerIcon from "./HamburgerIcon";
 import "../css/CustomNavbar.scss";
 
 const CustomNavbar = () => {
   const [theme, setTheme] = useState("dark");
+  const [click, setClick] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      // console.log(window.pageYOffset, theme);
-      if (window.pageYOffset === 0 && theme === "light") {
+      if (window.pageYOffset === 0 && theme === "light" && !click) {
         setTheme("dark");
       } else if (window.pageYOffset !== 0 && theme === "dark") {
-        // console.log("here", theme);
         setTheme("light");
       }
     });
   }, [theme]);
 
+  const getStyle = () =>
+    click && window.innerWidth <= 600
+      ? "navbar-item-responsive"
+      : "navbar-item";
+
   return (
     <div className={"navbar " + theme}>
-      <div className="navbar-item">education</div>
-      <div className="navbar-item">experience</div>
-      <div className="navbar-item">projects</div>
+      <HamburgerIcon
+        theme={theme}
+        onClick={() => {
+          setClick(!click);
+          if (theme === "dark") setTheme("light");
+          else if (window.pageYOffset === 0) setTheme("dark");
+        }}
+      />
+      <a href="#education" className={getStyle()}>
+        education
+      </a>
+      <a href="#experience" className={getStyle()}>
+        experience
+      </a>
+      <a href="#projects" className={getStyle()}>
+        projects
+      </a>
     </div>
   );
 };
