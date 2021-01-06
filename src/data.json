@@ -15,8 +15,7 @@
         "EECS 445: Machine Learning",
         "EECS 481: Software Engineering",
         "EECS 482: Operating Systems",
-        "EECS 485: Web Systems",
-        "EECS 491: Distributed Systems"
+        "EECS 485: Web Systems"
       ]
     }
   ],
@@ -27,6 +26,13 @@
       "date": "Nov 2020 - Present",
       "desc": "",
       "image": "https://media-exp1.licdn.com/dms/image/C560BAQE-ZBg4aOtSdA/company-logo_200_200/0/1534962044432?e=2159024400&v=beta&t=WCwuK7vseJ15fNYgQ7EUaKc3B7O4gSfNORI_q-HtqGA"
+    },
+    {
+      "company": "Ansys",
+      "title": "Software Development Intern",
+      "image": "https://pbs.twimg.com/profile_images/1231933945123688448/Taf1IIHN_400x400.jpg",
+      "date": "Jan 2021 - Apr 2021",
+      "desc": "Artemis team"
     },
     {
       "company": "Bandwidth",
@@ -61,6 +67,12 @@
       "description": "Redeveloped UM::Autonomy's website with a modern, responsive layout",
       "link": "https://umautonomy.com",
       "image": "https://lh3.googleusercontent.com/IhqRJn2q07QHpLO08yEYy1uyg-yTK8XrpO4_4ZaAl38pmZLApcjq079ZH5XjtTRDfjdbNLjpNynv44elqQ51I1tBqFUmPKx1VpP4WtIxVlKSkf1bm8Czrnd6NjdeXXZz4uYCXrl3ilPBWPj1HvcTzwxZre5WYO66IWJo9cn5m8rZ-iBxtjEGxnBP4r2xmiy96dcS9s9wk5LCApn5uKu3mRCRmeml1vyxCde7YJ1n_jO4fj735izawyv46kVTXFcVk89gROFuTZKCsbXJP6YJNUBWHF_LdDThZLI0jxiWY5dn6DEV9SKdlAX-AkjSuIOkFvE_02QFRqEyVTHogwCXF18hZsiGTYgutDiH3nFQbMolHwwnCEUL9FDl64rON7j0xFTjzElvxRkaGF642F4lta9hF3m7Vi-dlY2wmwmdDcqzDHgntPi38P3LXFv21Jcd3gEbHzb5udDOkTq9YIRZrp5eRqJX7fx9yQd7f07AUITRAMJLkROGJ2jvg9nXAIRJldZUaSVuYdKReASK56y4j7AA4eND1hdiAeXvFziQqWUrGd_3hQlaST0x3BumTNuY-rXT3d1Awm2mK2_eddoIH0lhbB8EQheOSs00RrcqfQTxN8abHTAvPvpAMt-4X-1vT6Qnrx_-ycXfJWdKGfolyUOcVXS8UkAnXL0IsoY-eUHRbfRp9_wuAbDlvnrahA=w1189-h809-no?authuser=0"
+    },
+    {
+      "name": "Election 2020 Website",
+      "description": "A Site for the Daily with graphics and visuals for the 2020 election",
+      "link": "https://magnify.michigandaily.us/election2020/",
+      "image": "https://lh3.googleusercontent.com/b2hym0UpJa-t8fyUI8_5ZamWklIHCkKl0ZsDGTuKz2f1PuE8ddFSIUzyo5L1EzfC9uSdpWZcfscu9sBKjy_CaZAx8UhnrJVu55fExNrmX9ERwsXcRZgEbBoWEb7NtvGs5xp6aTfdbox5gy0Mt1sOAx_RRyFeD2NTAA5BFmgvDGKBZFxXNR6puhuvigkUJYHp3J-FpMfrogL9gEzRIKekZDLUFUl6VEzQHgjpAAaapMWGW8QrcrcO-Yc4yI4aewskCu3jk2kSqZYUtBbxFetjnCV9udzpC9lCuHR790l5mD5m8gu2-0iMn_scLq_DICH_h2IQWNPJPtpb27o5lLFanYtc3HkznxcjeRC_Z0jkaA4Qbh0o9tIQjKDt_tVI6wrXbyfODSQU7M2EHzmI8eWB7GejUjuoDuydcr_gzFYB6lX2dHxZqOZT5ddf3N0qoIYMJF386YFH268r8noirCjYki9ijEvifKH9ly0ZNcBrrMYzN46IYRtMZZMQ-PNjMV-u9fwQsBabsPEp0W45ZlvLL_Sb-75oFsZ8Zpiwtq4U60EK1gcUDxUDS-x-Tp_3r6l5qegGbKv4z8QD-uSR4uihbDnUHMez-y8cgPmry9oTAm676SzOnUca72Tss-0tHeTWNOlyLiKvEUwlvT6kZvj4K_ivWPfEXbJV_na13gY4-Csg-1KmRyhS2iQ9lxN8XA=w1568-h1952-no?authuser=1"
     }
   ]
 }

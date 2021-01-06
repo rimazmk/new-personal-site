@@ -3,7 +3,7 @@ import "../css/AboutMe.scss";
 
 const AboutMe = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h1>About Me 💡</h1>
       <p>
         Hey! I'm Rimaz, a junior studying computer science at UMich. I'm

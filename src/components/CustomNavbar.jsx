@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import HamburgerIcon from "./HamburgerIcon";
 import "../css/CustomNavbar.scss";
 
 const CustomNavbar = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("dark navbar-dark");
   const [click, setClick] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset === 0 && theme === "light" && !click) {
-        setTheme("dark");
-      } else if (window.pageYOffset !== 0 && theme === "dark") {
-        setTheme("light");
+      if (window.pageYOffset === 0 && theme === "light navbar-light") {
+        setTheme("dark navbar-dark");
+      } else if (window.pageYOffset !== 0 && theme === "dark navbar-dark") {
+        setTheme("light navbar-light");
       }
     });
   }, [theme]);
@@ -22,25 +21,41 @@ const CustomNavbar = () => {
       : "navbar-item";
 
   return (
-    <div className={"navbar " + theme}>
-      <HamburgerIcon
-        theme={theme}
-        onClick={() => {
-          setClick(!click);
-          if (theme === "dark") setTheme("light");
-          else if (window.pageYOffset === 0) setTheme("dark");
-        }}
-      />
-      <a href="#education" className={getStyle()}>
-        education
-      </a>
-      <a href="#experience" className={getStyle()}>
-        experience
-      </a>
-      <a href="#projects" className={getStyle()}>
-        projects
-      </a>
-    </div>
+    <nav
+      className={"navbar navbar-custom fixed-top navbar-expand-sm " + theme}
+      id="navbar"
+    >
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav">
+          <li className="nav-item navbar-item">
+            <a class="nav-link" href="#about">
+              About
+            </a>
+          </li>
+          <li className="nav-item navbar-item">
+            <a class="nav-link" href="#experience">
+              Experience
+            </a>
+          </li>
+          <li className="nav-item navbar-item">
+            <a class="nav-link" href="#projects">
+              Projects
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 
