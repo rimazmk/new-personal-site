@@ -14,12 +14,16 @@ const AboutCard = () => {
             alignItems: "center",
           }}
         >
-          <i style={{ fontSize: "36px", margin: "10px" }} class="fa">
-            &#xf09b;
-          </i>
-          <i style={{ fontSize: "36px", margin: "10px" }} class="fa">
-            &#xf08c;
-          </i>
+          <a href="https://github.com/rimazk123">
+            <i style={{ fontSize: "36px", margin: "10px" }} class="fa">
+              &#xf09b;
+            </i>
+          </a>
+          <a href="https://www.linkedin.com/in/rimazk/">
+            <i style={{ fontSize: "36px", margin: "10px" }} class="fa">
+              &#xf08c;
+            </i>
+          </a>
         </div>
       </div>
     </>
