@@ -33,10 +33,15 @@ const Timeline = () => {
               dateClassName="date"
               icon={<IconImage image={exp.image} />}
             >
-              <h3 className="vertical-timeline-element-title">{exp.company}</h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h3
+                className="vertical-timeline-element-title"
+                style={{ paddingBottom: "8px" }}
+              >
+                {exp.company}
+              </h3>
+              <h5 className="vertical-timeline-element-subtitle">
                 {exp.title}
-              </h4>
+              </h5>
               <p className="timeline-desc">{exp.desc}</p>
             </VerticalTimelineElement>
           );

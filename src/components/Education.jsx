@@ -25,7 +25,7 @@ const Education = () => {
           <div className="card-horizontal-text">
             <h2>University of Michigan</h2>
             <p>B.S.E. Computer Science</p>
-            <p>GPA: 3.61/4.0</p>
+            <p>GPA: {data.education[0].gpa}</p>
             <p>Sep. 2018 - Dec. 2021</p>
           </div>
           <img src={logo} className="card-horizontal-img" alt="umich-logo" />

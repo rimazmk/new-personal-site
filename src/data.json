@@ -4,7 +4,7 @@
     {
       "school": "University of Michigan",
       "degree": "B.S.E. Computer Science",
-      "gpa": "3.61/4.0",
+      "gpa": "3.63/4.0",
       "img": "/src/images/U-M-logo.png",
       "courses": [
         "Math 217: Linear Algebra",
@@ -22,8 +22,8 @@
   "experience": [
     {
       "company": "Wolverine Trading",
-      "title": "Incoming Software Engineering Intern",
-      "date": "Nov 2020 - Present",
+      "title": "Software Engineering Intern",
+      "date": "Jun 2021 - Present",
       "desc": "",
       "image": "https://media-exp1.licdn.com/dms/image/C560BAQE-ZBg4aOtSdA/company-logo_200_200/0/1534962044432?e=2159024400&v=beta&t=WCwuK7vseJ15fNYgQ7EUaKc3B7O4gSfNORI_q-HtqGA"
     },
@@ -57,10 +57,28 @@
       "image": "/images/hangmanonline.png"
     },
     {
+      "name": "UM-Communities",
+      "description": "A directory of Discord servers and other open communities @ UMich",
+      "link": "https://umcommunities.co",
+      "image": "/images/umcommunities.png"
+    },
+    {
+      "name": "Covid Anniversary Edition",
+      "description": "A special edition of the Daily to reflect on a year of Covid at Michigan.",
+      "link": "https://magnify.michigandaily.us/covid1year/",
+      "image": "/images/covidanniversary.png"
+    },
+    {
       "name": "Election 2020 Website",
       "description": "A Site for the Daily with graphics and visuals for the 2020 election",
       "link": "https://magnify.michigandaily.us/election2020/",
       "image": "/images/election.png"
+    },
+    {
+      "name": "github cli",
+      "description": "Contributor to Github's official cli tool with 11,000+ stars.",
+      "link": "https://github.com/cli/cli",
+      "image": "https://github.blog/wp-content/uploads/2020/09/gh-pr-checkout-on-github-command-line-terminal-app.png?resize=1024%2C476"
     },
     {
       "name": "Love Notes Edition",
@@ -73,12 +91,6 @@
       "description": "An SMS client that recommends Spotify playlists from selfies",
       "link": "https://github.com/rimazk123/moody_mixes",
       "image": "https://github.com/rimazk123/moody-mixes/raw/master/anger.jpeg"
-    },
-    {
-      "name": "github cli",
-      "description": "Contributor to Github's official cli tool with 11,000+ stars.",
-      "link": "https://github.com/cli/cli",
-      "image": "https://github.blog/wp-content/uploads/2020/09/gh-pr-checkout-on-github-command-line-terminal-app.png?resize=1024%2C476"
     },
     {
       "name": "UM::Autonomy Website",
