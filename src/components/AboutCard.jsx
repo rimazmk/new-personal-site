@@ -14,7 +14,7 @@ const AboutCard = () => {
             alignItems: "center",
           }}
         >
-          <a href="https://github.com/rimazk123">
+          <a href="https://github.com/rimazmk">
             <i style={{ fontSize: "36px", margin: "10px" }} className="fa">
               &#xf09b;
             </i>
