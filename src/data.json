@@ -97,8 +97,8 @@
     {
       "name": "Moody Mixes",
       "description": "An SMS client that recommends Spotify playlists from selfies (Hackathon Project)",
-      "github": "https://github.com/rimazk123/moody_mixes",
-      "image": "https://github.com/rimazk123/moody-mixes/raw/master/anger.jpeg",
+      "github": "https://github.com/rimazmk/moody_mixes",
+      "image": "https://github.com/rimazmk/moody-mixes/raw/master/anger.jpeg",
       "techStack": "Flask, Google Cloud"
     },
     {
