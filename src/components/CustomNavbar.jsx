@@ -39,17 +39,17 @@ const CustomNavbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item navbar-item">
-            <a class="nav-link" href="#about">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li className="nav-item navbar-item">
-            <a class="nav-link" href="#experience">
+            <a className="nav-link" href="#experience">
               Experience
             </a>
           </li>
           <li className="nav-item navbar-item">
-            <a class="nav-link" href="#projects">
+            <a className="nav-link" href="#projects">
               Projects
             </a>
           </li>

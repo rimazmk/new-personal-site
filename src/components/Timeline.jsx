@@ -32,6 +32,7 @@ const Timeline = () => {
               date={exp.date}
               dateClassName="date"
               icon={<IconImage image={exp.image} />}
+              key={exp.company}
             >
               <h3
                 className="vertical-timeline-element-title"

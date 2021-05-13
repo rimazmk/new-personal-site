@@ -7,11 +7,11 @@ const Projects = () => {
   return (
     <>
       <h1 id="projects" id="projects">
-        Projects
+        Projects 💻
       </h1>
       <div className="cards">
         {data.projects.map((project) => {
-          return <ProjectCard {...project} />;
+          return <ProjectCard key={project.name} {...project} />;
         })}
       </div>
     </>

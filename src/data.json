@@ -54,49 +54,59 @@
       "name": "Hangmanonline.io",
       "description": "An online platform for playing Hangman in a group",
       "link": "https://hangmanonline.io",
-      "image": "/images/hangmanonline.png"
+      "image": "/images/hangmanonline.png",
+      "github": "https://github.com/rimazmk/hangman-fe",
+      "techStack": "Flask, React.js, TypeScript, SocketIO"
     },
     {
       "name": "UM-Communities",
       "description": "A directory of Discord servers and other open communities @ UMich",
       "link": "https://umcommunities.co",
-      "image": "/images/umcommunities.png"
+      "github": "https://github.com/rimazmk/um-communities",
+      "image": "/images/umcommunities.png",
+      "techStack": "React.js, TypeScript, Firebase"
     },
     {
       "name": "Covid Anniversary Edition",
       "description": "A special edition of the Daily to reflect on a year of Covid at Michigan.",
       "link": "https://magnify.michigandaily.us/covid1year/",
-      "image": "/images/covidanniversary.png"
+      "image": "/images/covidanniversary.png",
+      "techStack": "React.js"
     },
     {
       "name": "Election 2020 Website",
       "description": "A Site for the Daily with graphics and visuals for the 2020 election",
       "link": "https://magnify.michigandaily.us/election2020/",
-      "image": "/images/election.png"
+      "image": "/images/election.png",
+      "techStack": "React.js"
     },
     {
-      "name": "github cli",
-      "description": "Contributor to Github's official cli tool with 11,000+ stars.",
-      "link": "https://github.com/cli/cli",
-      "image": "https://github.blog/wp-content/uploads/2020/09/gh-pr-checkout-on-github-command-line-terminal-app.png?resize=1024%2C476"
+      "name": "Github CLI",
+      "description": "Contributed to Github's official cli tool with 11,000+ stars.",
+      "github": "https://github.com/cli/cli",
+      "image": "https://github.blog/wp-content/uploads/2020/09/gh-pr-checkout-on-github-command-line-terminal-app.png?resize=1024%2C476",
+      "techStack": "Golang"
     },
     {
       "name": "Love Notes Edition",
       "description": "A showcase for the Daily's love notes and valentine's articles",
       "link": "https://magnify.michigandaily.us/love/",
-      "image": "/images/lovenotes.png"
+      "image": "/images/lovenotes.png",
+      "techStack": "Flask, React.js, TypeScript, SocketIO"
     },
     {
-      "name": "moody mixes",
-      "description": "An SMS client that recommends Spotify playlists from selfies",
-      "link": "https://github.com/rimazk123/moody_mixes",
-      "image": "https://github.com/rimazk123/moody-mixes/raw/master/anger.jpeg"
+      "name": "Moody Mixes",
+      "description": "An SMS client that recommends Spotify playlists from selfies (Hackathon Project)",
+      "github": "https://github.com/rimazk123/moody_mixes",
+      "image": "https://github.com/rimazk123/moody-mixes/raw/master/anger.jpeg",
+      "techStack": "Flask, Google Cloud"
     },
     {
       "name": "UM::Autonomy Website",
       "description": "Redeveloped UM::Autonomy's website with a modern, responsive layout",
       "link": "https://umautonomy.com",
-      "image": "/images/uma.png"
+      "image": "/images/uma.png",
+      "techStack": "Jekyll"
     }
   ]
 }
