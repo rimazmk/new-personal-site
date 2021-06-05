@@ -88,13 +88,6 @@
       "techStack": "Golang"
     },
     {
-      "name": "Love Notes Edition",
-      "description": "A showcase for the Daily's love notes and valentine's articles",
-      "link": "https://magnify.michigandaily.us/love/",
-      "image": "/images/lovenotes.png",
-      "techStack": "Flask, React.js, TypeScript, SocketIO"
-    },
-    {
       "name": "Moody Mixes",
       "description": "An SMS client that recommends Spotify playlists from selfies (Hackathon Project)",
       "github": "https://github.com/rimazmk/moody_mixes",
