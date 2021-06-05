@@ -24,7 +24,7 @@
       "company": "Wolverine Trading",
       "title": "Software Engineering Intern",
       "date": "Jun 2021 - Present",
-      "desc": "",
+      "desc": "Team America",
       "image": "https://media-exp1.licdn.com/dms/image/C560BAQE-ZBg4aOtSdA/company-logo_200_200/0/1534962044432?e=2159024400&v=beta&t=WCwuK7vseJ15fNYgQ7EUaKc3B7O4gSfNORI_q-HtqGA"
     },
     {
@@ -32,20 +32,20 @@
       "title": "Software Development Intern",
       "image": "https://pbs.twimg.com/profile_images/1231933945123688448/Taf1IIHN_400x400.jpg",
       "date": "Jan 2021 - Apr 2021",
-      "desc": "Artemis team"
+      "desc": "Artemis Post Team"
     },
     {
       "company": "Bandwidth",
       "title": "Software Development Intern",
       "date": "May 2020 - Jul 2020",
-      "desc": "Keystone Identity Team",
+      "desc": "Keystone Team",
       "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEZRoHLIMQIoA/company-logo_200_200/0/1602497465728?e=2159024400&v=beta&t=LGVfp7HndM1I0HLAr-H-zWsR8WDEvOk78i0m2fgCTrU"
     },
     {
       "company": "The Michigan Daily",
       "title": "Project Manager",
       "date": "Jan 2020 - Present",
-      "desc": "Websites and Special Projects",
+      "desc": "Web Development",
       "image": "https://pbs.twimg.com/profile_images/1221979091454308356/I3i5QCNf_400x400.jpg"
     }
   ],
@@ -67,17 +67,17 @@
       "techStack": "React.js, TypeScript, Firebase"
     },
     {
+      "name": "Miseducation Edition",
+      "description": "A gallery for art and content for the Daily's Miseducation Project",
+      "link": "https://miseducation.michigandaily.com/",
+      "image": "/images/miseducation.png",
+      "techStack": "React.js"
+    },
+    {
       "name": "Covid Anniversary Edition",
       "description": "A special edition of the Daily to reflect on a year of Covid at Michigan.",
       "link": "https://magnify.michigandaily.us/covid1year/",
       "image": "/images/covidanniversary.png",
-      "techStack": "React.js"
-    },
-    {
-      "name": "Election 2020 Website",
-      "description": "A Site for the Daily with graphics and visuals for the 2020 election",
-      "link": "https://magnify.michigandaily.us/election2020/",
-      "image": "/images/election.png",
       "techStack": "React.js"
     },
     {
@@ -100,13 +100,6 @@
       "github": "https://github.com/rimazmk/moody_mixes",
       "image": "https://github.com/rimazmk/moody-mixes/raw/master/anger.jpeg",
       "techStack": "Flask, Google Cloud"
-    },
-    {
-      "name": "UM::Autonomy Website",
-      "description": "Redeveloped UM::Autonomy's website with a modern, responsive layout",
-      "link": "https://umautonomy.com",
-      "image": "/images/uma.png",
-      "techStack": "Jekyll"
     }
   ]
 }
